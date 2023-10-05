@@ -1,12 +1,56 @@
-@import 'normalize.css/normalize';
+@import 'normalize.css';
 
 h1 {
-  color: palevioletred;
-  font-size: 48px;
+  color: #fff;
+  font-size: 96px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: gradientAnimation 8s linear infinite;
+  background: linear-gradient(to right, #ff69b4, #87ceeb, #fff, #9370db, #ff69b4);
+  background-size: 1500% 100%;
+  animation-fill-mode: backwards;
 }
 
-/* styles.css */
+@keyframes gradientAnimation {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: -100% 0;
+  }
+}
 
-body {
-    font-family: Arial, sans-serif;
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  div {
+    text-align: center;
+
+    p {
+      font-size: 24px;
+      font-weight: 300;
+      margin: 0;
+      font-family: 'latoregular', sans-serif;
+    }
+  }
+
+  img {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    rotate: -30deg;
+    top: 10%;
+    left: 10%;
+    user-select: none;
+  }
 }
