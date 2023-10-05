@@ -2,7 +2,7 @@
 
 This project is a boilerplate to kickstart your frontend web projects with best practices. It's based on the following technologies: npm, ESLint, Sass, Normalize.css, Prettier, Lodash, Husky, Vite, Jest. The goal of this boilerplate is to start development and optionally add our preferred framework if needed.
 
-## Structure de répertoires
+## Directory structure
 
 ```
 project/
@@ -46,7 +46,7 @@ project/
 
 - Install project dependencies by running `npm install`.
 
-## Scripts NPM
+## NPM Scripts
 
 The project contains several useful NPM scripts that you can run using `npm run <script>` :
 
