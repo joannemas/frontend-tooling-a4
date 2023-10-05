@@ -1,6 +1,6 @@
 const _ = require('lodash')
 
-function calculate (numbers) {
+function calculate(numbers) {
   return _.sum(numbers)
 }
 

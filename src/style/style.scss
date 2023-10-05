@@ -14,7 +14,14 @@ body {
   justify-content: center;
   align-items: center;
   animation: gradientAnimation 8s linear infinite;
-  background: linear-gradient(to right, #ff69b4, #87ceeb, #fff, #9370db, #ff69b4);
+  background: linear-gradient(
+    to right,
+    #ff69b4,
+    #87ceeb,
+    #fff,
+    #9370db,
+    #ff69b4
+  );
   background-size: 1500% 100%;
   animation-fill-mode: backwards;
 }

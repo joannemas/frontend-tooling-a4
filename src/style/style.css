@@ -2,7 +2,7 @@
 h1 {
   color: #fff;
   font-size: 96px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 body {
@@ -14,7 +14,14 @@ body {
   justify-content: center;
   align-items: center;
   animation: gradientAnimation 8s linear infinite;
-  background: linear-gradient(to right, #ff69b4, #87ceeb, #fff, #9370db, #ff69b4);
+  background: linear-gradient(
+    to right,
+    #ff69b4,
+    #87ceeb,
+    #fff,
+    #9370db,
+    #ff69b4
+  );
   background-size: 1500% 100%;
   animation-fill-mode: backwards;
 }
@@ -39,7 +46,7 @@ body {
   font-size: 24px;
   font-weight: 300;
   margin: 0;
-  font-family: "latoregular", sans-serif;
+  font-family: 'latoregular', sans-serif;
 }
 .main-content img {
   width: 300px;
